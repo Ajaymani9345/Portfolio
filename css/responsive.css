@@ -1,0 +1,205 @@
+/* ==========================================
+   Responsive Design
+========================================== */
+
+/* ---------- Large Tablets ---------- */
+
+@media (max-width: 1024px){
+
+    header{
+        padding:20px 5%;
+    }
+
+    .hero{
+        padding:70px 5%;
+        gap:40px;
+    }
+
+    .about-page{
+        padding:70px 5%;
+    }
+
+    .projects-page,
+    .skills,
+    .education,
+    .contact-page,
+    .certificates,
+    .map{
+        padding:70px 5%;
+    }
+
+}
+
+/* ---------- Tablets ---------- */
+
+@media (max-width: 768px){
+
+    header{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    nav ul li{
+        margin:10px;
+    }
+
+    .hero{
+        flex-direction:column-reverse;
+        text-align:center;
+    }
+
+    .hero-text h1{
+        font-size:45px;
+    }
+
+    .hero-text h2{
+        font-size:28px;
+    }
+
+    .hero-image img{
+        width:280px;
+    }
+
+    .about-page{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .about-image img{
+        width:280px;
+    }
+
+    .contact-container{
+        grid-template-columns:1fr;
+    }
+
+    .project-container{
+        grid-template-columns:1fr;
+    }
+
+    .certificate-container{
+        grid-template-columns:1fr;
+    }
+
+    .skill-container{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+/* ---------- Mobile Phones ---------- */
+
+@media (max-width:576px){
+
+    .logo h2{
+        font-size:24px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    nav ul li{
+        margin:8px 0;
+    }
+
+    .hero{
+        padding:50px 20px;
+    }
+
+    .hero-text h1{
+        font-size:35px;
+    }
+
+    .hero-text h2{
+        font-size:24px;
+    }
+
+    .hero-text h3{
+        font-size:20px;
+    }
+
+    .hero-image img{
+        width:220px;
+    }
+
+    .about-page{
+        padding:50px 20px;
+    }
+
+    .about-content h1{
+        font-size:32px;
+    }
+
+    .skills,
+    .projects-page,
+    .education,
+    .contact-page,
+    .certificates,
+    .map{
+        padding:50px 20px;
+    }
+
+    .skills h2,
+    .projects-page h1,
+    .education h2,
+    .certificates h2,
+    .contact-page h1{
+        font-size:30px;
+    }
+
+    .skill-container{
+        grid-template-columns:1fr;
+    }
+
+    .project-card img{
+        height:180px;
+    }
+
+    .buttons{
+        flex-direction:column;
+    }
+
+    .btn{
+        width:100%;
+        text-align:center;
+    }
+
+    table{
+        font-size:14px;
+    }
+
+    footer{
+        padding:20px;
+    }
+
+}
+
+/* ---------- Small Phones ---------- */
+
+@media (max-width:360px){
+
+    .hero-text h1{
+        font-size:30px;
+    }
+
+    .hero-text h2{
+        font-size:20px;
+    }
+
+    .hero-image img{
+        width:180px;
+    }
+
+    .btn{
+        font-size:14px;
+        padding:10px 15px;
+    }
+
+}
